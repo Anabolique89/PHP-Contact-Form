@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: "Rubik Iso", sans-serif;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+   
+}
+
+input, textarea{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+   
+}
+button{
+    font-family: "Rubik Iso", sans-serif;;
+    width: auto;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: black;
+}
+
+button:hover{
+
+background-color: aliceblue;
+color:black ;
+border: solid black 2px;
+}
